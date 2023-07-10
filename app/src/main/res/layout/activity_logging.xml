@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#484454"
+    tools:context=".LoggingActivity">
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"
+        android:layout_centerHorizontal="true"
+        android:hint="email"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="300dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:textAlignment="center"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:hint="******"
+        android:inputType="textPassword"
+        android:layout_below="@id/mail"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textAlignment="center"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:hint="name"
+        android:layout_below="@id/password"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_create_account"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/name"
+        android:layout_marginTop="20dp"
+        android:text="log in"
+        android:textSize="25sp"
+        android:backgroundTint="#00A67E"/>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SmartAss" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/my_light_primary</item>
+    </style>
+
+    <style name="Theme.SmartAss" parent="Base.Theme.SmartAss" />
+
+    <color name="my_light_primary">#00A67E</color>
+</resources>

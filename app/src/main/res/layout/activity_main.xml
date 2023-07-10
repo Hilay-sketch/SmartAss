@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#484454"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/sign_out"
+        android:text="Sign Out"
+        android:textSize="22sp"
+        android:layout_marginBottom="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_mail"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:text="username"
+        android:paddingTop="50dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_prompt"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textAlignment="center"
+        android:backgroundTint="@color/white"
+        android:layout_centerInParent="true"
+        android:hint="any subject you can think of" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_send"
+        android:layout_marginTop="30dp"
+        android:textSize="22sp"
+        android:layout_below="@id/ed_prompt"
+        android:layout_centerHorizontal="true"
+        android:text="send" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#484454"
+        android:elevation="25dp"
+        android:layout_above="@id/sign_out"
+        android:layout_marginBottom="20dp">
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_to_see_my_resuelt"
+        android:backgroundTint="#00A57E"
+        android:text="Previous games"
+        android:textSize="22sp" />
+</androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>

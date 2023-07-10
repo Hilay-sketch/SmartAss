@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "755006870812",
+    "project_id": "smartass-550e0",
+    "storage_bucket": "smartass-550e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755006870812:android:bd8ed0b48b48153f3656d9",
+        "android_client_info": {
+          "package_name": "com.example.smartass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755006870812-87rng69edjcdqdbhllgrn58vrnipe1tn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA3bA6Gdm6j3ZZUQYdGmPgHyBVL_dlm88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755006870812-87rng69edjcdqdbhllgrn58vrnipe1tn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
